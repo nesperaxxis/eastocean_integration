@@ -1,0 +1,676 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FTIS1_GET_UNMAPPED_USER" xml:space="preserve">
+    <value>SELECT T0.USERID, T0.U_NAME
+FROM OUSR T0 LEFT JOIN  [@AXC_FTIS1] T1 ON T0.USERID = T1.U_AXC_USRID
+WHERE T1.U_AXC_USRID IS NULL</value>
+  </data>
+  <data name="OFTLOG_GET_COMBO_BOX_OBJECTS" xml:space="preserve">
+    <value>SELECT '%' Code, 'All' Name
+UNION ALL SELECT '2V' "Code", 'VENDOR' "Name" 
+UNION ALL SELECT '2C', 'CUSTOMER'
+UNION ALL SELECT '4', 'ITEM'
+UNION ALL SELECT '52', 'ITEM_CATEGORY'
+UNION ALL SELECT '43', 'BRAND'
+UNION ALL SELECT '1470000062', 'BAR_CODE'
+UNION ALL SELECT '64', 'WAREHOUSE'
+UNION ALL SELECT '10000206', 'BIN'
+UNION ALL SELECT '66', 'BOM'
+UNION ALL SELECT '17', 'SALES_ORDER'
+UNION ALL SELECT '13R', 'RESERVE_INVOICE'
+UNION ALL SELECT '14', 'AR_CN'
+UNION ALL SELECT '16', 'AR_RETURN'
+UNION ALL SELECT '22', 'PURCHASE_ORDER'
+UNION ALL SELECT '21', 'AP_RETURN'
+UNION ALL SELECT '19', 'AP_CN'
+UNION ALL SELECT '202', 'WORK_ORDER'
+UNION ALL SELECT '156', 'PICK_LIST'
+UNION ALL SELECT '20', 'GRPO'
+UNION ALL SELECT '1250000001', 'TR_REQUEEST'
+UNION ALL SELECT '67', 'WHS_TRANSFER'
+UNION ALL SELECT '60P', 'ISSUE_PROD'
+UNION ALL SELECT '59P', 'RECPT_PROD'
+UNION ALL SELECT '60', 'STOCK_ADJ_NEG'
+UNION ALL SELECT '59', 'STOCK_ADJ_POS'</value>
+  </data>
+  <data name="OFTLOG_GET_COMBO_BOX_USERS" xml:space="preserve">
+    <value>SELECT USERID, USER_CODE FROM (
+SELECT 0 idx, '%' USERID, 'All' USER_CODE UNION ALL
+SELECT ROW_NUMBER() OVER(ORDER BY USER_CODE ASC),  CAST(USERID AS NVARCHAR(13)) USERID, USER_CODE FROM OUSR
+) X
+ORDER BY idx</value>
+  </data>
+  <data name="OFTLOG_GET_LOG" xml:space="preserve">
+    <value>DECLARE @Object NVARCHAR(50) = '{0}'
+DECLARE @Success NVARCHAR(1) = '{1}'
+DECLARE @FrDate NVARCHAR(8) = '{2}'
+DECLARE @ToDate NVARCHAR(8) = '{3}'
+DECLARE @User NVARCHAR(20) = '{4}'
+DECLARE @Direction NVARCHAR(1) = '{5}'
+
+SELECT T0."Code" ID
+	, U_AXC_TSTMP "TimeStamp"
+	, T1.USER_CODE "User"
+	, T0.U_AXC_DRCTN "Direction"
+	, T0.U_AXC_OPRTN "Method"
+	, T0.U_AXC_OBJTP "WMSObjectType"
+	, T0.U_AXC_OBJCD "Code"
+	, T0.U_AXC_OBJNM "Name"
+	, T0.U_AXC_EXTID "Ext.ID"
+	, T0.U_AXC_SCCES "Success"
+	, T0.U_AXC_PRSLT "Result"
+	, T0.U_AXC_PDATA "Data"
+	, CASE T0.U_AXC_OBJTP WHEN '2V' THEN '2' WHEN '2C' THEN '2' WHEN '13R' THEN '13' WHEN '59P' THEN '59' WHEN '60P' THEN '60' ELSE T0.U_AXC_OBJTP END "ObjType"
+FROM [@AXC_OFTLG] T0 JOIN OUSR T1 ON T0.U_AXC_OUSER = T1.USERID
+WHERE T0.U_AXC_OBJTP LIKE @Object
+	AND T0.U_AXC_SCCES LIKE @Success
+	AND CAST(U_AXC_TSTMP AS date) BETWEEN @FrDate AND @ToDate
+	AND T0.U_AXC_OUSER LIKE @USER
+	AND U_AXC_DRCTN LIKE @Direction</value>
+  </data>
+  <data name="axcOFTLG_GET_SERVER_TIME" xml:space="preserve">
+    <value>SELECT CONVERT(NVARCHAR(25),GETDATE(),120)</value>
+  </data>
+  <data name="axcOSYNC_GET_DETAIL_ITEM" xml:space="preserve">
+    <value>SELECT * FROM OITM T0 WHERE T0.ItemCode = '{0}'</value>
+  </data>
+  <data name="axcOSYNC_GET_LIST_OBJECTS" xml:space="preserve">
+    <value>SELECT '2V' "Code", 'VENDOR' "Name" 
+ UNION ALL SELECT '2C', 'CUSTOMER'
+ UNION ALL SELECT '4', 'ITEM'
+ UNION ALL SELECT '52', 'ITEM_CATEGORY'
+ UNION ALL SELECT '43', 'BRAND'
+ UNION ALL SELECT '1470000062', 'BAR_CODE'
+ UNION ALL SELECT '64', 'WAREHOUSE'
+ UNION ALL SELECT '10000206', 'BIN'
+ UNION ALL SELECT '66', 'BOM'
+ UNION ALL SELECT '17', 'SALES_ORDER'
+ UNION ALL SELECT '13R', 'RESERVE_INVOICE'
+ UNION ALL SELECT '14', 'AR_CN'
+ UNION ALL SELECT '16', 'AR_RETURNS'
+ UNION ALL SELECT '22', 'PURCHASE_ORDER'
+ UNION ALL SELECT '21', 'AP_RETURN'
+ UNION ALL SELECT '19', 'AP_CN'
+ UNION ALL SELECT '202', 'WORK_ORDER'</value>
+  </data>
+  <data name="OITM_GET_BARCODES" xml:space="preserve">
+    <value>SELECT T1.*, T2."UomCode", T2."UomName" 
+FROM OITM T0 INNER JOIN OBCD T1 ON T0."ItemCode" = T1."ItemCode"  
+	LEFT JOIN OUOM T2 ON T1."UomEntry" = T2."UomEntry"  
+WHERE T0."ItemCode" = '{0}'</value>
+  </data>
+  <data name="axcOSYNC_GET_LIST_OBCD" xml:space="preserve">
+    <value>--axcOSYNC_GET_LIST_OBCD	
+DECLARE @FrCode NVARCHAR(254) = '{0}'
+DECLARE @ToCode NVARCHAR(254) = '{1}'
+SELECT 'N' "Export", 'N' "Success", T0."ItemCode", T0."BcdCode", T1."UomCode", T0."BcdEntry" "Key", T0."ItemCode" + ' - ' + T0."BcdCode" "Name" , '1470000062' "ObjType" 
+	, CAST('' AS NVARCHAR(254)) "Export Process Remark"
+FROM OBCD T0 JOIN OUOM T1 ON T0."UomEntry" = T1."UomEntry" 
+WHERE T0."BcdCode" BETWEEN @FrCode AND @ToCode
+	OR (
+		@FrCode = '' AND @ToCode = ''
+	)</value>
+  </data>
+  <data name="axcOSYNC_GET_LIST_OINV_RESERVE" xml:space="preserve">
+    <value>DECLARE @FrCode NVARCHAR(50) = '{0}'
+DECLARE @ToCode NVARCHAR(50) = '{1}'
+SELECT 'N' "Export", 'N' "Success", T0."DocNum", CASE T0.CANCELED WHEN 'N' THEN CASE T0."DocStatus" WHEN 'C' THEN 'Closed' WHEN 'O' THEN 'Open' ELSE T0."DocStatus" END ELSE 'Canceled' END "DocStatus"
+	, T0."CardCode", T0."CardName"
+	, T0."NumAtCard" "Cust Ref Num", T0."DocDate" "Posting Date", T0."DocDueDate" "Due Date", T0."TaxDate" "Doc Date"
+	, T0."DocCur" "Currency", CASE ISNULL(T0."DocTotalFC",0) WHEN 0 THEN T0."DocTotal" ELSE T0."DocTotalFC" END "Doc Total"
+	, CASE ISNULL(T0."DocTotalFC",0) WHEN 0 THEN T0."PaidToDate" ELSE T0.PaidFC END "Paid Total", T0."Comments" "Remarks", T0."DocEntry" "Key", T0."DocNum" "Name", T0."ObjType"
+	, CAST('' AS NVARCHAR(254)) "Export Process Remark"
+FROM OINV T0
+WHERE T0."IsICT" = 'N' AND T0."UpdInvnt" = 'C' AND T0."DocSubType" = N'--' 
+	AND (
+		T0."DocNum" BETWEEN @FrCode AND @ToCode
+		OR (@FrCode = '0' AND @ToCode = '0')
+	)
+	AND T0.InvntSttus = 'O' AND T0.CANCELED != 'C' AND T0.DocType = 'I'</value>
+  </data>
+  <data name="axcOSYNC_GET_LIST_OPOR" xml:space="preserve">
+    <value>DECLARE @FrCode NVARCHAR(50) = '{0}'
+DECLARE @ToCode NVARCHAR(50) = '{1}'
+SELECT 'N' "Export", 'N' "Success", T0."DocNum", CASE T0.CANCELED WHEN 'N' THEN CASE T0."DocStatus" WHEN 'C' THEN 'Closed' WHEN 'O' THEN 'Open' ELSE T0."DocStatus" END ELSE 'Canceled' END "DocStatus"
+	, T0."CardCode", T0."CardName"
+	, T0."NumAtCard" "Vendor Ref Num", T0."DocDate" "Posting Date", T0."DocDueDate" "Due Date", T0."TaxDate" "Doc Date"
+	, T0."DocCur" "Currency", CASE ISNULL(T0."DocTotalFC",0) WHEN 0 THEN T0."DocTotal" ELSE T0."DocTotalFC" END "Doc Total"
+	, CASE ISNULL(T0."DocTotalFC",0) WHEN 0 THEN T0."PaidToDate" ELSE T0."PaidFC" END "Paid Total", T0."Comments" "Remarks", T0."DocEntry" "Key", T0."DocNum" "Name", T0."ObjType" 
+	, CAST('' AS NVARCHAR(254)) "Export Process Remark" 
+FROM OPOR T0
+WHERE (
+		T0."DocNum" BETWEEN @FrCode AND @ToCode
+		OR (@FrCode = '0' AND @ToCode = '0')
+	)
+	AND T0."DocStatus" = 'O' 
+	AND T0.CANCELED = 'N' 
+	AND T0.DocType = 'I'</value>
+  </data>
+  <data name="axcOSYNC_GET_LIST_ORDN" xml:space="preserve">
+    <value>DECLARE @FrCode NVARCHAR(50) = '{0}'
+DECLARE @ToCode NVARCHAR(50) = '{1}'
+SELECT 'N' "Export", 'N' "Success", T0."DocNum", CASE T0.CANCELED WHEN 'N' THEN CASE T0."DocStatus" WHEN 'C' THEN 'Closed' WHEN 'O' THEN 'Open' ELSE T0."DocStatus" END ELSE 'Canceled' END "DocStatus"
+	, T0."CardCode", T0."CardName"
+	, T0."NumAtCard" "Cust Ref Num", T0."DocDate" "Posting Date", T0."DocDueDate" "Due Date", T0."TaxDate" "Doc Date"
+	, T0."DocCur" "Currency", CASE ISNULL(T0."DocTotalFC",0) WHEN 0 THEN T0."DocTotal" ELSE T0."DocTotalFC" END "Doc Total"
+	, CASE ISNULL(T0."DocTotalFC",0) WHEN 0 THEN T0."PaidToDate" ELSE T0."PaidFC" END "Paid Total", T0."Comments" "Remarks", T0."DocEntry" "Key", T0."DocNum" "Name", T0."ObjType" 
+	, CAST('' AS NVARCHAR(254)) "Export Process Remark" 
+FROM ORDN T0
+WHERE (
+		T0."DocNum" BETWEEN @FrCode AND @ToCode
+		OR (@FrCode = '0' AND @ToCode = '0')
+	)  AND T0.CANCELED = 'N'
+	AND T0.DocType = 'I' AND ISNULL(T0.U_AXC_EXTID,'') = '' </value>
+  </data>
+  <data name="axcOSYNC_GET_LIST_ORDR" xml:space="preserve">
+    <value>DECLARE @FrCode NVARCHAR(50) = '{0}'
+DECLARE @ToCode NVARCHAR(50) = '{1}'
+SELECT 'N' "Export", 'N' "Success", T0."DocNum", CASE T0.CANCELED WHEN 'N' THEN CASE T0."DocStatus" WHEN 'C' THEN 'Closed' WHEN 'O' THEN 'Open' ELSE T0."DocStatus" END ELSE 'Canceled' END "DocStatus"
+	, T0."CardCode", T0."CardName"
+	, T0."NumAtCard" "Cust Ref Num", T0."DocDate" "Posting Date", T0."DocDueDate" "Due Date", T0."TaxDate" "Doc Date"
+	, T0."DocCur" "Currency", CASE ISNULL(T0."DocTotalFC",0) WHEN 0 THEN T0."DocTotal" ELSE T0."DocTotalFC" END "Doc Total"
+	, CASE ISNULL(T0."DocTotalFC",0) WHEN 0 THEN T0."PaidToDate" ELSE T0."PaidFC" END "Paid Total", T0."Comments" "Remarks", T0."DocEntry" "Key", T0."DocNum" "Name", T0."ObjType" 
+	, CAST('' AS NVARCHAR(254)) "Export Process Remark" 
+FROM ORDR T0
+WHERE (
+		T0."DocNum" BETWEEN @FrCode AND @ToCode
+		OR (@FrCode = '0' AND @ToCode = '0')
+	)
+	AND T0.DocStatus = 'O' AND T0.CANCELED = 'N' AND T0.DocType = 'I'</value>
+  </data>
+  <data name="axcOSYNC_GET_LIST_ORIN" xml:space="preserve">
+    <value>DECLARE @FrCode NVARCHAR(50) = '{0}'
+DECLARE @ToCode NVARCHAR(50) = '{1}'
+SELECT DISTINCT 'N' "Export", 'N' "Success", T0."DocNum", CASE T0.CANCELED WHEN 'N' THEN CASE T0."DocStatus" WHEN 'C' THEN 'Closed' WHEN 'O' THEN 'Open' ELSE T0."DocStatus" END ELSE 'Canceled' END "DocStatus"
+	, T0."CardCode", T0."CardName"
+	, T0."NumAtCard" "Cust Ref Num", T0."DocDate" "Posting Date", T0."DocDueDate" "Due Date", T0."TaxDate" "Doc Date"
+	, T0."DocCur" "Currency", CASE ISNULL(T0."DocTotalFC",0) WHEN 0 THEN T0."DocTotal" ELSE T0."DocTotalFC" END "Doc Total"
+	, CASE ISNULL(T0."DocTotalFC",0) WHEN 0 THEN T0."PaidToDate" ELSE T0."PaidFC" END "Paid Total", T0."Comments" "Remarks", T0."DocEntry" "Key", T0."DocNum" "Name", T0."ObjType" 
+	, CAST('' AS NVARCHAR(254)) "Export Process Remark" 
+FROM ORIN T0 JOIN RIN1 T1 ON T0.DocEntry = T1.DocEntry
+	LEFT JOIN OINV T2 ON T1.BaseType = T2.ObjType AND T1.BaseEntry = T2.DocEntry  AND T2."IsICT" = 'N' AND T2."UpdInvnt" = 'C' AND T2."DocSubType" = N'--' 
+WHERE (
+		T0."DocNum" BETWEEN @FrCode AND @ToCode
+		OR (@FrCode = '0' AND @ToCode = '0')
+	) AND T0.CANCELED = 'N'  AND T0.DocType = 'I'
+	AND T2.DocEntry IS NULL		--Exclude CN based on AR Reserve Invoice
+ORDER BY T0."DocNum"</value>
+  </data>
+  <data name="axcOSYNC_GET_LIST_ORPC" xml:space="preserve">
+    <value>DECLARE @FrCode NVARCHAR(50) = '{0}'
+DECLARE @ToCode NVARCHAR(50) = '{1}'
+SELECT 'N' "Export", 'N' "Success", T0."DocNum", CASE T0.CANCELED WHEN 'N' THEN CASE T0."DocStatus" WHEN 'C' THEN 'Closed' WHEN 'O' THEN 'Open' ELSE T0."DocStatus" END ELSE 'Canceled' END "DocStatus"
+	, T0."CardCode", T0."CardName"
+	, T0."NumAtCard" "Vendor Ref Num", T0."DocDate" "Posting Date", T0."DocDueDate" "Due Date", T0."TaxDate" "Doc Date"
+	, T0."DocCur" "Currency", CASE ISNULL(T0."DocTotalFC",0) WHEN 0 THEN T0."DocTotal" ELSE T0."DocTotalFC" END "Doc Total"
+	, CASE ISNULL(T0."DocTotalFC",0) WHEN 0 THEN T0."PaidToDate" ELSE T0."PaidFC" END "Paid Total", T0."Comments" "Remarks", T0."DocEntry" "Key", T0."DocNum" "Name", T0."ObjType" 
+	, CAST('' AS NVARCHAR(254)) "Export Process Remark" 
+FROM ORPC T0
+WHERE (
+		T0."DocNum" BETWEEN @FrCode AND @ToCode
+		OR (@FrCode = '0' AND @ToCode = '0')
+	) AND T0.CANCELED = 'N' AND T0.DocType = 'I'</value>
+  </data>
+  <data name="axcOSYNC_GET_LIST_ORPD" xml:space="preserve">
+    <value>DECLARE @FrCode NVARCHAR(50) = '{0}'
+DECLARE @ToCode NVARCHAR(50) = '{1}'
+SELECT 'N' "Export", 'N' "Success", T0."DocNum", CASE T0.CANCELED WHEN 'N' THEN CASE T0."DocStatus" WHEN 'C' THEN 'Closed' WHEN 'O' THEN 'Open' ELSE T0."DocStatus" END ELSE 'Canceled' END "DocStatus"
+	, T0."CardCode", T0."CardName"
+	, T0."NumAtCard" "Vendor Ref Num", T0."DocDate" "Posting Date", T0."DocDueDate" "Due Date", T0."TaxDate" "Doc Date"
+	, T0."DocCur" "Currency", CASE ISNULL(T0."DocTotalFC",0) WHEN 0 THEN T0."DocTotal" ELSE T0."DocTotalFC" END "Doc Total"
+	, CASE ISNULL(T0."DocTotalFC",0) WHEN 0 THEN T0."PaidToDate" ELSE T0."PaidFC" END "Paid Total", T0."Comments" "Remarks", T0."DocEntry" "Key", T0."DocNum" "Name", T0."ObjType" 
+	, CAST('' AS NVARCHAR(254)) "Export Process Remark" 
+FROM ORPD T0
+WHERE (
+		T0."DocNum" BETWEEN @FrCode AND @ToCode
+		OR (@FrCode = '0' AND @ToCode = '0')
+	) AND T0.CANCELED = 'N' AND T0.DocType = 'I'</value>
+  </data>
+  <data name="axcOSYNC_GET_LIST_OWOR" xml:space="preserve">
+    <value>--axcOSYNC_GET_LIST_OWOR
+DECLARE @FrCode NVARCHAR(50) = '{0}'
+DECLARE @ToCode NVARCHAR(50) = '{1}'
+SELECT 'N' "Export", 'N' "Success",  T0."DocNum"
+	,CASE T0."Status" WHEN 'P' THEN 'Planned' WHEN 'R' THEN 'Released' WHEN 'L' THEN 'Closed' WHEN 'C' THEN 'Canceled' END "Status"
+	, T0."ItemCode", T1."ItemName" "ProdName", T0."PlannedQty", T0."CmpltQty" "Completed Qty", T0.RjctQty "Rejected Qty"
+	, T0."Warehouse", T0."OriginNum" "SalesOrder",  T0."CardCode" "CustomerCode", T0."Project"
+	, T0."PostDate" "Order Date", T0."StartDate" "Start Date", T0."DueDate" "Due Date"
+	, T0."Comments" "Remarks", T0."PickRmrk" "Pick Remarks", T0."OriginAbs", T0."DocEntry" "Key", T0."DocNum" "Name", T0."ObjType"
+	, CAST('' AS NVARCHAR(254)) "Export Process Remark"
+FROM OWOR T0
+INNER JOIN OITM T1 on T0."ItemCode" = T1."ItemCode"
+WHERE ((T0."DocNum" BETWEEN @FrCode AND @ToCode) OR (@FrCode = '0' AND @ToCode = '0'))
+and T0."Status" not in ('L','C')</value>
+  </data>
+  <data name="GET_RECORD_OCRD" xml:space="preserve">
+    <value>SELECT * FROM OCRD WHERE "CardCode" = '{0}'</value>
+  </data>
+  <data name="axcOSYNC_GET_LIST_CUSTOMERS" xml:space="preserve">
+    <value>--axcOSYNC_GET_LIST_CUSTOMERS
+DECLARE @FrCode NVARCHAR(50) = '{0}'
+DECLARE @ToCode NVARCHAR(50) = '{1}'
+DECLARE @CardType NVARCHAR(1) = 'C'
+
+SELECT 'N' "Export", 'N' "Success", T0."CardCode", T0."CardName", T0."CardFName" "Foreign Name", T1."GroupName" "Group", T0."CntctPrsn" "Contact Person", T0."Currency"
+	, CASE WHEN T0."validFor" = 'Y' THEN 'Y' WHEN ISNULL(T0."validFor",'N') = 'N' AND ISNULL(T0."frozenFor",'N') = 'N' THEN 'Y' ELSE 'N' END "Active"
+	, T0."CardCode" "Key", T0."CardName" "Name", T0."ObjType" "ObjType"
+	, CAST('' AS NVARCHAR(254)) "Export Process Remark"
+FROM OCRD T0 JOIN OCRG T1 ON T0."GroupCode" = T1."GroupCode"
+WHERE "CardTYpe" = @CardType AND
+	(
+		T0."CardCode" BETWEEN @FrCode AND @ToCode
+		OR (@FrCode='' AND @ToCode = '')
+	)
+ORDER BY "CardCode"</value>
+  </data>
+  <data name="axcOSYNC_GET_LIST_OBIN" xml:space="preserve">
+    <value>--axcOSYNC_GET_LIST_OBIN
+DECLARE @FrCode NVARCHAR(50) = '{0}'
+DECLARE @ToCode NVARCHAR(50) = '{1}'
+
+SELECT 'N' "Export", 'N' "Success", "BinCode", "WhsCode", "Disabled", "ReceiveBin", "AbsEntry" "Key", "BinCode" "Name", '10000206' "ObjType"
+	, CAST('' AS NVARCHAR(254)) "Export Process Remark"
+FROM OBIN T0
+WHERE T0."BinCode" BETWEEN @FrCode AND @ToCode
+	OR (@FrCode='' AND @ToCode = '')
+ORDER BY T0."BinCode"</value>
+  </data>
+  <data name="axcOSYNC_GET_LIST_OITB" xml:space="preserve">
+    <value>--axcOSYNC_GET_LIST_OITB	
+DECLARE @FrCode NVARCHAR(254) = '{0}'
+DECLARE @ToCode NVARCHAR(254) = '{1}'
+SELECT 'N' "Export", 'N' "Success", T0."ItmsGrpNam" "Group Name", T0."ItmsGrpCod" "Group Code", T0."Locked", T0."ItmsGrpCod" "Key", T0."ItmsGrpNam" "Name", T0."Object" "ObjType" 
+	, CAST('' AS NVARCHAR(254)) "Export Process Remark"
+FROM OITB T0 
+WHERE T0."ItmsGrpNam" BETWEEN @FrCode AND @ToCode
+	OR (
+		@FrCode = '' AND @ToCode = ''
+	)</value>
+  </data>
+  <data name="axcOSYNC_GET_LIST_OITM" xml:space="preserve">
+    <value>--axcOSYNC_GET_LIST_OITM
+DECLARE @FrCode NVARCHAR(50) = '{0}'
+DECLARE @ToCode NVARCHAR(50) = '{1}'
+DECLARE @InventoryItem NVARCHAR(1) = 'Y'
+
+SELECT 'N' "Export", 'N' "Success", T0."ItemCode", T0."ItemName", T0."FrgnName", T1."ItmsGrpNam" "Group", T0."InvntryUom" "Inventory UOM", T0."BuyUnitMsr" "Purchase UOM"
+	, T0."NumInBuy" "Items/Purch Unit", T0."SalUnitMsr" "Sales UOM", T0."NumInSale" "Items/Sale Unit", T0."CardCode" "Preferred Vendor"
+	, CASE WHEN T0."validFor" = 'Y' THEN 'Y' WHEN ISNULL(T0."validFor",'N') = 'N' AND ISNULL(T0."frozenFor",'N') = 'N' THEN 'Y' ELSE 'N' END "Active"
+	, T0."ItemCode" "Key", T0."ItemName" "Name", T0."ObjType" "ObjType"
+	, CAST('' AS NVARCHAR(254)) "Export Process Remark"
+FROM OITM T0 JOIN OITB T1 ON T0."ItmsGrpCod" = T1."ItmsGrpCod"
+WHERE T0."InvntItem" = @InventoryItem AND
+	(
+		T0."ItemCode" BETWEEN @FrCode AND @ToCode
+		OR (@FrCode='' AND @ToCode = '')
+	)
+ORDER BY T0."ItemCode"</value>
+  </data>
+  <data name="axcOSYNC_GET_LIST_OITT" xml:space="preserve">
+    <value>--axcOSYNC_GET_LIST_OITT
+DECLARE @FrCode NVARCHAR(50) = '{0}'
+DECLARE @ToCode NVARCHAR(50) = '{1}'
+
+SELECT 'N' "Export", 'N' "Success",  T0."Code", T1."ItemName" "BOM Name", CASE T0."TreeType" WHEN 'A' THEN 'Assembly' WHEN 'S' THEN 'Sales' WHEN 'P' THEN 'Production' WHEN 'T' THEN 'Template' END "BOM Type",
+	T0."Qauntity" "Quantity", T0."Project", T0."Code" "Key", T1."ItemName" "Name", T0."Object" "ObjType"
+	, CAST('' AS NVARCHAR(254)) "Export Process Remark"
+FROM OITT T0 Inner Join OITM T1 on T0."Code" = T1."ItemCode"
+WHERE T0.Code BETWEEN @FrCode AND @ToCode
+	OR (@FrCode='' AND @ToCode = '')</value>
+  </data>
+  <data name="axcOSYNC_GET_LIST_OMRC" xml:space="preserve">
+    <value>--axcOSYNC_GET_LIST_OMRC
+DECLARE @FrCode NVARCHAR(50) = '{0}'
+DECLARE @ToCode NVARCHAR(50) = '{1}'
+
+SELECT 'N' "Export", 'N' "Success", T0."FirmName", T0."FirmCode" "Key", T0."FirmName" "Name", '43' "ObjType"
+	, CAST('' AS NVARCHAR(254)) "Export Process Remark"
+FROM OMRC T0
+WHERE T0."FirmName" BETWEEN @FrCode AND @ToCode
+	OR (@FrCode='' AND @ToCode = '')
+ORDER BY T0."FirmName"</value>
+  </data>
+  <data name="axcOSYNC_GET_LIST_OWHS" xml:space="preserve">
+    <value>--axcOSYNC_GET_LIST_OWHS		
+DECLARE @FrCode NVARCHAR(254) = '{0}'
+DECLARE @ToCode NVARCHAR(254) = '{1}'
+SELECT 'N' "Export", 'N' "Success", T0."WhsCode", T0."WhsName" "Whse Name", T0."Inactive", T0."BinActivat" "Bin Warehouse", T0."Street", T0."StreetNo", T0."Block", T0."WhsCode" "Key", T0."WhsName" "Name", T0."ObjType" 
+	, CAST('' AS NVARCHAR(254)) "Export Process Remark"
+FROM OWHS T0 
+WHERE T0.DropShip = 'N' AND
+	(
+		T0."WhsCode" BETWEEN @FrCode AND @ToCode
+		OR ( @FrCode = '' AND @ToCode = '' )
+	)</value>
+  </data>
+  <data name="axcOSYNC_GET_LIST_VENDORS" xml:space="preserve">
+    <value>--axcOSYNC_GET_LIST_VENDORS
+DECLARE @FrCode NVARCHAR(50) = '{0}'
+DECLARE @ToCode NVARCHAR(50) = '{1}'
+DECLARE @CardType NVARCHAR(1) = 'S'
+
+SELECT 'N' "Export", 'N' "Success", T0."CardCode", T0."CardName", T0."CardFName" "Foreign Name", T1."GroupName" "Group", T0."CntctPrsn" "Contact Person", T0."Currency"
+	, CASE WHEN T0."validFor" = 'Y' THEN 'Y' WHEN ISNULL(T0."validFor",'N') = 'N' AND ISNULL(T0."frozenFor",'N') = 'N' THEN 'Y' ELSE 'N' END "Active"
+	, T0."CardCode" "Key", T0."CardName" "Name", T0."ObjType" "ObjType"
+	, CAST('' AS NVARCHAR(254)) "Export Process Remark"
+FROM OCRD T0 JOIN OCRG T1 ON T0."GroupCode" = T1."GroupCode"
+WHERE "CardTYpe" = @CardType AND
+	(
+		T0."CardCode" BETWEEN @FrCode AND @ToCode
+		OR (@FrCode='' AND @ToCode = '')
+	)
+ORDER BY "CardCode"</value>
+  </data>
+  <data name="GET_RECORD_OBCD" xml:space="preserve">
+    <value>SELECT T0.*, T1.UomCode, T1.UomName FROM  OBCD T0 JOIN OUOM T1 ON T0.UomEntry = T1.UomEntry WHERE T0.BcdEntry = {0}</value>
+  </data>
+  <data name="GET_RECORD_OBIN" xml:space="preserve">
+    <value>SELECT * FROM OBIN WHERE "AbsEntry"= '{0}'</value>
+  </data>
+  <data name="GET_RECORD_OINV" xml:space="preserve">
+    <value>SELECT T0.DocEntry, T0.DocNum, T0.DocDate, T0.DocDueDate, T0.CardCode, T0.CardName, T0.NumAtCard, T0.ShipToCode, T0.Comments, T0.SlpCode, T1.SlpName
+	, CASE WHEN ISNULL(T0.U_AXC_DDLVR,'-') IN ('','-') THEN 'N' ELSE   T0.U_AXC_DDLVR END DirectDelivery, T0."CANCELED"
+FROM OINV T0 LEFT JOIN OSLP T1 ON T0.SlpCode = T1.SlpCode
+WHERE DocEntry = 0{0}</value>
+  </data>
+  <data name="GET_RECORD_OITB" xml:space="preserve">
+    <value>SELECT * FROM OITB WHERE "ItmsGrpCod" = '{0}'</value>
+  </data>
+  <data name="GET_RECORD_OITM" xml:space="preserve">
+    <value>SELECT T0.ItemCode, T0.ItemName, T0.FrgnName, T0.InvntryUom, T0.SalUnitMsr, T0.BuyUnitMsr, T0.CardCode, T0.ItmsGrpCod, T1.ItmsGrpNam
+	, T0.ManSerNum, T0.ManBtchNum, T0.DfltWH, T3.BinCode
+	, T0.BLength1, T0.BLen1Unit
+	, T0.BWidth1, T0.BWdth1Unit
+	, T0.BHeight1, T0.BHght1Unit
+	, T0.BVolume, T0.BVolUnit
+	, T0.validFor, T0.frozenFor
+	, T4.BitmapPath, T0.PicturName
+	, T0.CreateDate, T0.CreateTS
+	, T0.UpdateDate, T0.UpdateTS
+	, T0.U_PRANK
+FROM OITM T0 JOIN OITB T1 ON T0.ItmsGrpCod = T1.ItmsGrpCod
+	JOIN OADP T4 ON 1 = 1
+	LEFT JOIN OITW T2 ON T0.ItemCode = T2.ItemCode AND T2.WhsCode = T0.DfltWH
+	LEFT JOIN OBIN T3 ON T2.DftBinAbs = T3.AbsEntry
+WHERE T0.ItemCode = '{0}'</value>
+  </data>
+  <data name="GET_RECORD_OITT" xml:space="preserve">
+    <value>Select *,B."ItemName" "Name" from OITT A
+inner join OITM B on A."Code" = B."ItemCode"
+Where A."Code" = '{0}'</value>
+  </data>
+  <data name="GET_RECORD_OMRC" xml:space="preserve">
+    <value>SELECT * FROM OMRC WHERE FirmCode= '{0}'</value>
+  </data>
+  <data name="GET_RECORD_OPOR" xml:space="preserve">
+    <value>SELECT T0.DocEntry, T0.DocNum, T0.DocDate, T0.DocDueDate, T0.CardCode, T0.CardName, T0.NumAtCard, T0.ShipToCode, T0.Comments, T0.SlpCode, T1.SlpName
+	, DocCur, DocRate, T0."CANCELED"
+FROM OPOR T0 LEFT JOIN OSLP T1 ON T0.SlpCode = T1.SlpCode
+WHERE DocEntry = {0}</value>
+  </data>
+  <data name="GET_RECORD_ORDN" xml:space="preserve">
+    <value>SELECT * FROM ORDN WHERE "DocEntry" = '{0}'</value>
+  </data>
+  <data name="GET_RECORD_ORDR" xml:space="preserve">
+    <value>SELECT T0.DocEntry, T0.DocNum, T0.DocDate, T0.DocDueDate, T0.CardCode, T0.CardName, T0.NumAtCard, T0.ShipToCode, T0.Comments, T0.SlpCode, T1.SlpName,T0.DocStatus,T0."CANCELED"
+	, CASE WHEN ISNULL(T0.U_AXC_DDLVR,'-') IN ('','-') THEN 'N' ELSE   T0.U_AXC_DDLVR END DirectDelivery
+FROM ORDR T0 LEFT JOIN OSLP T1 ON T0.SlpCode = T1.SlpCode
+WHERE DocEntry = 0{0}</value>
+  </data>
+  <data name="GET_RECORD_ORIN" xml:space="preserve">
+    <value>SELECT TOP 1 T0.ObjType, T0.DocEntry, T0.DocNum, T0.NumAtCard, T0.DocDate, T0.DocDueDate,
+	T0.CardCode, T2.DocEntry BaseEntry, T2. DocNum BaseRef,  T2.U_AXC_EXTID 
+FROM ORIN T0  JOIN RIN1 T1 ON T0.DocEntry = T1.DocEntry 
+	LEFT JOIN (ORDN T2 JOIN RDN1 T3 ON T2.DocEntry = T3.DocEntry) ON T1.BaseType = T2.ObjType AND T1.BaseEntry = T2.DocEntry AND T1.BaseLine = T3.LineNum AND ISNULL(T2.U_AXC_EXTID,'') &lt;&gt; '' 
+WHERE T0.DocEntry = {0}
+ORDER BY T1.BaseEntry</value>
+  </data>
+  <data name="GET_RECORD_ORPC" xml:space="preserve">
+    <value>SELECT * FROM ORPC WHERE "DocEntry" = '{0}'</value>
+  </data>
+  <data name="GET_RECORD_ORPD" xml:space="preserve">
+    <value>SELECT TOP 1 T0.ObjType, T0.DocEntry, T0.DocNum, T0.NumAtCard, T0.DocDate, T0.DocDueDate,
+	T0.CardCode, T1.BaseEntry, T1.BaseRef 
+FROM ORPD T0  JOIN RPD1 T1 ON T0.DocEntry = T1.DocEntry 
+WHERE T0.DocEntry = {0}
+ORDER BY T1.BaseEntry</value>
+  </data>
+  <data name="GET_RECORD_OWHS" xml:space="preserve">
+    <value>SELECT * FROM OWHS WHERE "WhsCode"= '{0}'</value>
+  </data>
+  <data name="GET_RECORD_OWOR" xml:space="preserve">
+    <value>SELECT * FROM OWOR WHERE "DocEntry"= '{0}'</value>
+  </data>
+  <data name="OFTLOG_GET_COMBO_BOX_DIRECTION" xml:space="preserve">
+    <value>SELECT '%', 'Both'
+UNION ALL SELECT 'I', 'Inbound'
+UNION ALL SELECT 'O', 'Outbound'</value>
+  </data>
+  <data name="OMRC_GET_FIRM_NAMES" xml:space="preserve">
+    <value>SELECT '0' "FirmCode", '' "FirmName"
+UNION ALL SELECT CAST("FirmCode" AS NVARCHAR(12)), "FirmName" FROM OMRC 
+ORDER BY "FirmName"</value>
+  </data>
+  <data name="GET_RECORD_CRD1_DEFAULT_BILL_TO" xml:space="preserve">
+    <value>SELECT T1.* FROM OCRD T0 JOIN  CRD1 T1 ON T0.CardCode = T1.CardCode  AND T1.AdresType = 'B' AND T1.Address = T0.BillToDef WHERE T0.CardCode = '{0}'</value>
+  </data>
+  <data name="GET_RECORD_CRD1_SHIPTO" xml:space="preserve">
+    <value>SELECT * FROM CRD1 WHERE AdresType = 'S' AND "CardCode" = '{0}'</value>
+  </data>
+  <data name="GET_RECORD_INV1" xml:space="preserve">
+    <value>SELECT DocEntry, LineNum, ItemCode, unitMsr, OpenQty, OpenInvQty, Dscription, FreeTxt, WhsCode FROM INV1 WHERE DocEntry = {0}</value>
+  </data>
+  <data name="GET_RECORD_ITT1_ITEMS" xml:space="preserve">
+    <value>SELECT A.*, B."ItemName",B."InvntryUom" "iUOM" FROM ITT1 A
+inner join OITM B on A."Code" = B."ItemCode"
+WHERE A."Father" = '{0}' AND A."Type" = 4</value>
+  </data>
+  <data name="GET_RECORD_OCRD_DEFAULT_CONTACT" xml:space="preserve">
+    <value>SELECT TOP 1 ISNULL(T2.CntctCode, T1.CntctCode) CntctCode, ISNULL(T2.Name, T1.Name)  "Name"
+FROM OCRD T0 JOIN OCPR T1 ON T0.CardCode = T1.CardCode
+	LEFT JOIN OCPR T2 ON T0.CntctPrsn = T2.Name
+ WHERE T0.CardCode = '{0}'</value>
+  </data>
+  <data name="GET_RECORD_OCRD_DEFAULT_SALES_EMPLOYEE" xml:space="preserve">
+    <value>SELECT T1.* FROM OCRD T0 JOIN OSLP T1 ON T0.SlpCode = T1.SlpCode WHERE T0.CardCode = '{0}'</value>
+  </data>
+  <data name="GET_RECORD_POR1" xml:space="preserve">
+    <value>SELECT DocEntry, LineNum, ItemCode, unitMsr, OpenQty, OpenInvQty, Dscription, FreeTxt, WhsCode FROM POR1 WHERE DocEntry = {0}</value>
+  </data>
+  <data name="GET_RECORD_RDR1" xml:space="preserve">
+    <value>SELECT DocEntry, LineNum, ItemCode, unitMsr, OpenQty, OpenInvQty, Dscription, FreeTxt, WhsCode FROM RDR1 WHERE DocEntry = {0}</value>
+  </data>
+  <data name="GET_RECORD_RPD1" xml:space="preserve">
+    <value>SELECT DocEntry, LineNum, ItemCode, unitMsr, OpenQty, OpenInvQty, Dscription, FreeTxt, WhsCode FROM RPD1 WHERE DocEntry = {0}</value>
+  </data>
+  <data name="GET_RECORD_WOR1" xml:space="preserve">
+    <value>SELECT T0.DocEntry, T0.LineNum, T0.ItemCode, T0.BaseQty, T1.ItemName
+, T0.PlannedQty, T0.wareHouse, T0.IssueType, T0.ItemType, T1.InvntryUom 
+FROM WOR1 T0 JOIN OITM T1 ON T0.ItemCode= T1.ItemCode 
+WHERE T0.ItemType = 4 AND T0.DocEntry = {0}</value>
+  </data>
+  <data name="OINM_GET_LINE_SNB_BIN_INFO" xml:space="preserve">
+    <value>DECLARE @ObjType int = {0}
+DECLARE @DocEntry int = {1}
+
+
+SELECT ROW_NUMBER() OVER (ORDER BY X.LineNum, X.SnbAbsEntry, X.BinAbs) LineKey, X.*, X1.FreeTxt, X1.U_AXC_EXTID FROM (
+	SELECT MIN(T0.[TransType]) ObjType, MIN(T0.[CreatedBy]) DocEntry, MIN(T0.[BASE_REF]) DocNum, MIN(T0.[DocLineNum]) LineNum, 
+		MIN(T0.[ItemCode]) ItemCode, MIN(T0.[Dscription]) ItemName, MIN(T0.[InvPLInQty]) [InvPLInQty], MIN(T0.[InvPLOutQty]) [InvPLOutQty], 
+		MIN(T0.[Warehouse]) Warehouse, MIN(T1.[InvntryUom]) InvntryUom
+		, MIN(T2.MdAbsEntry) SnBAbsEntry
+		, ISNULL(MIN(T3.[DistNumber]), MIN(T4.[DistNumber])) DistNumber
+		, ISNULL(MIN(T3.[MnfSerial]), MIN(T4.[MnfSerial])) MnfSerial
+		, ISNULL(MIN(T3.[LotNumber]), MIN(T4.[LotNumber])) LotNumber
+		, MIN(T2.[ManagedBy]) [SnBType]
+		, ABS(SUM(T2.[Quantity] + T2.[TmpQty])) Quantity
+		, MIN(T5.[BinCode]) BinCode
+		, MIN(T2.BinAbs) BinAbs
+	FROM  B1_OinmWithBinTransfer T0  INNER  JOIN OITM T1  ON  T0.[ItemCode] = T1.[ItemCode]  AND  T0.[SnBType] IN(10000044,10000045)     
+		LEFT OUTER  JOIN [B1_InvPostListILWithBinView] T2  ON  T2.[ApplyType] = T0.[TransType]  AND  T2.[ApplyEntry] = T0.[CreatedBy]  AND  T2.[ApplyLine] = T0.[DocLineNum]  AND  T2.[AppSubLine] = T0.[InvPLSubLineNum]  AND  (T2.[StockQty] = 0  OR  (T2.[StockQty] &lt;&gt; 0  AND  T2.[MessageID] = T0.[InvPLMessageID] ) OR  T2.[MessageID] IS NULL  ) AND  T2.[LocCode] = T0.[Warehouse]  AND  T2.[ItemCode] = T0.[ItemCode]    
+		LEFT OUTER  JOIN [OBTN] T3  ON  T3.[AbsEntry] = T2.[MdAbsEntry]  AND  T2.[ManagedBy] = 10000044    
+		LEFT OUTER  JOIN [OSRN] T4  ON  T4.[AbsEntry] = T2.[MdAbsEntry]  AND  T2.[ManagedBy] = 10000045    
+		LEFT OUTER  JOIN [OBIN] T5  ON  T5.[AbsEntry] = T2.[BinAbs]   
+	WHERE T0.[TransType] IN(@ObjType)   AND  T0.[CreatedBy] IN(@DocEntry)   AND  (T0.[TransType] = (@ObjType) ) AND  T0.[CreatedBy] = (@DocEntry)  
+		AND  T0.[InvPLLayerID] = (0)  AND  ((T2.[Quantity] + T2.[TmpQty]) &lt;&gt; 0  OR  T2.[Quantity] IS NULL  ) 
+		AND  (T2.[MessageID] IS NOT NULL   OR  T0.[CostMethod] &lt;&gt; 'B'  OR  T0.[CostMethod] IS NULL   OR  T0.[TransType] NOT IN(10000071,310000001)   
+			OR  
+			(T0.[CostMethod] = 'B'  AND  T2.[MessageID] IS NULL   AND  T0.[TransType] IN(10000071,310000001)   AND   EXISTS (SELECT U0.[MessageID] FROM  [ILM1] U0  WHERE T0.[InvPLMessageID] = U0.[MessageID]  AND T2.[MdAbsEntry] = U0.[MdAbsEntry]  AND  T2.[ItemCode] = U0.[ItemCode]  ) ))  
+	GROUP BY T0.[InvPLMessageID], T0.[TransNum], T0.[TransSeq], T5.[AbsEntry], T2.MdAbsEntry 
+	UNION ALL 
+	SELECT MIN(T0.[TransType]) ObjType, MIN(T0.[CreatedBy]) DocEntry, MIN(T0.[BASE_REF]) DocNum, MIN(T0.[DocLineNum]) LineNum,
+		MIN(T0.[ItemCode]) ItemCode, MIN(T0.[Dscription]) ItemName, MIN(T0.[InvPLInQty]) [InvPLInQty], MIN(T0.[InvPLOutQty]) [InvPLOutQty], 
+		MIN(T0.[Warehouse]), MIN(T1.[InvntryUom]), NULL SnBAbsEntry, NULL DistNumber, NULL MnfSerial, NULL LotNumber, NULL SnBType, SUM(ISNULL(T2.[Quantity], [InvPLInQty] + T0.[InvPLOutQty])) Quantity, 
+		MIN(T5.[BinCode]), MIN(T2.BinAbs) BinAbs
+	FROM  [B1_OinmWithBinTransfer] T0  
+		INNER  JOIN [OITM] T1  ON  T0.[ItemCode] = T1.[ItemCode]  AND  T0.[SnBType] &lt;&gt; 10000045  AND  T0.[SnBType] &lt;&gt; 10000044    
+		LEFT OUTER  JOIN [OBTL] T2  ON  T0.[InvPLMessageID] = T2.[MessageID]    
+		LEFT OUTER  JOIN [OBTN] T3  ON  T3.[AbsEntry] &lt;= 0    
+		LEFT OUTER  JOIN [OSRN] T4  ON  T4.[AbsEntry] &lt;= 0    
+		LEFT OUTER  JOIN [OBIN] T5  ON  T5.[AbsEntry] = T2.[BinAbs]   
+	WHERE T0.[TransType] IN(@ObjType)   AND  T0.[CreatedBy] IN(@DocEntry)   
+		AND  (T0.[TransType] = (@ObjType) ) AND  T0.[CreatedBy] = (@DocEntry)  AND  T0.[InvPLLayerID] = (0)   
+	GROUP BY T0.[InvPLMessageID], T0.[TransNum], T0.[TransSeq], T5.[AbsEntry]
+) X JOIN {2}1 X1 ON X.DocEntry = X1.DocEntry AND X.LineNum = X1.LineNum
+ORDER BY X.ObjType, X.DocEntry, X.DocNum, X.LineNum</value>
+  </data>
+  <data name="OIVL_DOCUMENT_HAS_INVENTORY_MOVEMENT" xml:space="preserve">
+    <value>SELECT COUNT('') FROM OIVL WHERE TransType = {0} AND CreatedBy = {1}</value>
+  </data>
+  <data name="GET_RECORD_OINC" xml:space="preserve">
+    <value>SELECT "DocEntry", "DocNum", "CountDate","Status","Ref2","Remarks"
+FROM OINC WHERE "DocEntry" = {0}</value>
+    <comment>Inventory Counting Added 06/12/2021</comment>
+  </data>
+  <data name="GET_RECORD_INC1" xml:space="preserve">
+    <value>SELECT A."DocEntry",A."LineNum",A."ItemCode",A."ItemDesc"  "ItemName"
+,A."InWhsQty",A."Counted" "IsCounted",A."CountQty",A."WhsCode"
+,ISNULL(B."BinCode",'') "BinCode",ISNULL(C."InvntryUom",'') "InvntryUom"
+,ISNULL(E."DistNumber",ISNULL(F."DistNumber",'')) "SnBCode"
+FROM INC1 A
+LEFT JOIN OBIN B ON A."BinEntry" = B."AbsEntry"
+LEFT JOIN OITM C ON A."ItemCode" = C."ItemCode"
+LEFT JOIN INC3 D ON A."DocEntry" = D."DocEntry" and A."LineNum" = D."LineNum"
+LEFT join OBTN E on D."ObjId" = E."ObjType" and D."ObjAbs" = E."AbsEntry"
+LEFT join OSRN F on D."ObjId" =F."ObjType" and D."ObjAbs" = F."AbsEntry"
+WHERE A."DocEntry" = {0}</value>
+    <comment>Inventory Counting Added 07/12/2021</comment>
+  </data>
+</root>
