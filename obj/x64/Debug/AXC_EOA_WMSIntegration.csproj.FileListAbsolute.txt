@@ -1,0 +1,110 @@
+C:\Users\edyssid\Documents\Visual Studio 2019\East Ocean\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.csprojAssemblyReference.cache
+C:\Users\edyssid\Documents\Visual Studio 2019\East Ocean\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.Properties.Resources.resources
+C:\Users\edyssid\Documents\Visual Studio 2019\East Ocean\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.Src.Resource.Queries.resources
+C:\Users\edyssid\Documents\Visual Studio 2019\East Ocean\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.csproj.GenerateResource.cache
+C:\Users\edyssid\Documents\Visual Studio 2019\East Ocean\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.csproj.CoreCompileInputs.cache
+C:\Users\edyssid\Documents\Visual Studio 2019\East Ocean\AXC_EOA_WMSIntegration\bin\x64\Debug\AXC_EOA_WMSIntegration.exe.config
+C:\Users\edyssid\Documents\Visual Studio 2019\East Ocean\AXC_EOA_WMSIntegration\bin\x64\Debug\AXC_EOA_WMSIntegration.exe
+C:\Users\edyssid\Documents\Visual Studio 2019\East Ocean\AXC_EOA_WMSIntegration\bin\x64\Debug\AXC_EOA_WMSIntegration.pdb
+C:\Users\edyssid\Documents\Visual Studio 2019\East Ocean\AXC_EOA_WMSIntegration\bin\x64\Debug\AXC_Licence.dll
+C:\Users\edyssid\Documents\Visual Studio 2019\East Ocean\AXC_EOA_WMSIntegration\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\edyssid\Documents\Visual Studio 2019\East Ocean\AXC_EOA_WMSIntegration\bin\x64\Debug\SAPBusinessOneSDK.dll
+C:\Users\edyssid\Documents\Visual Studio 2019\East Ocean\AXC_EOA_WMSIntegration\bin\x64\Debug\System.Net.Http.Formatting.dll
+C:\Users\edyssid\Documents\Visual Studio 2019\East Ocean\AXC_EOA_WMSIntegration\bin\x64\Debug\Newtonsoft.Json.xml
+C:\Users\edyssid\Documents\Visual Studio 2019\East Ocean\AXC_EOA_WMSIntegration\bin\x64\Debug\System.Net.Http.Formatting.xml
+C:\Users\edyssid\Documents\Visual Studio 2019\East Ocean\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.csproj.CopyComplete
+C:\Users\edyssid\Documents\Visual Studio 2019\East Ocean\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.exe
+C:\Users\edyssid\Documents\Visual Studio 2019\East Ocean\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.pdb
+C:\Users\edyssid\Documents\Visual Studio 2019\East Ocean\AXC_EOA_WMSIntegration\bin\x64\Debug\icon.png
+D:\Add-ons\East Ocean\Source Codes\AXC_EOA_WMSIntegration\bin\x64\Debug\icon.png
+D:\Add-ons\East Ocean\Source Codes\AXC_EOA_WMSIntegration\bin\x64\Debug\AXC_EOA_WMSIntegration.exe.config
+D:\Add-ons\East Ocean\Source Codes\AXC_EOA_WMSIntegration\bin\x64\Debug\AXC_EOA_WMSIntegration.exe
+D:\Add-ons\East Ocean\Source Codes\AXC_EOA_WMSIntegration\bin\x64\Debug\AXC_EOA_WMSIntegration.pdb
+D:\Add-ons\East Ocean\Source Codes\AXC_EOA_WMSIntegration\bin\x64\Debug\AXC_Licence.dll
+D:\Add-ons\East Ocean\Source Codes\AXC_EOA_WMSIntegration\bin\x64\Debug\Newtonsoft.Json.dll
+D:\Add-ons\East Ocean\Source Codes\AXC_EOA_WMSIntegration\bin\x64\Debug\SAPBusinessOneSDK.dll
+D:\Add-ons\East Ocean\Source Codes\AXC_EOA_WMSIntegration\bin\x64\Debug\System.Net.Http.Formatting.dll
+D:\Add-ons\East Ocean\Source Codes\AXC_EOA_WMSIntegration\bin\x64\Debug\Newtonsoft.Json.xml
+D:\Add-ons\East Ocean\Source Codes\AXC_EOA_WMSIntegration\bin\x64\Debug\System.Net.Http.Formatting.xml
+D:\Add-ons\East Ocean\Source Codes\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.csprojAssemblyReference.cache
+D:\Add-ons\East Ocean\Source Codes\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.Properties.Resources.resources
+D:\Add-ons\East Ocean\Source Codes\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.Src.Resource.Queries.resources
+D:\Add-ons\East Ocean\Source Codes\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.csproj.GenerateResource.cache
+D:\Add-ons\East Ocean\Source Codes\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.csproj.CoreCompileInputs.cache
+D:\Add-ons\East Ocean\Source Codes\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.csproj.CopyComplete
+D:\Add-ons\East Ocean\Source Codes\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.exe
+D:\Add-ons\East Ocean\Source Codes\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.pdb
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x64\Debug\icon.png
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x64\Debug\AXC_EOA_WMSIntegration.exe.config
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x64\Debug\AXC_EOA_WMSIntegration.exe
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x64\Debug\AXC_EOA_WMSIntegration.pdb
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x64\Debug\AXC_Licence.dll
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x64\Debug\Newtonsoft.Json.dll
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x64\Debug\SAPBusinessOneSDK.dll
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x64\Debug\System.Net.Http.Formatting.dll
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x64\Debug\Newtonsoft.Json.xml
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x64\Debug\System.Net.Http.Formatting.xml
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.Properties.Resources.resources
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.Src.Resource.Queries.resources
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.csproj.GenerateResource.cache
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.csproj.CoreCompileInputs.cache
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.csproj.CopyComplete
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.exe
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.pdb
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x86\Debug\icon.png
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x86\Debug\AXC_EOA_WMSIntegration.exe.config
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x86\Debug\AXC_EOA_WMSIntegration.exe
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x86\Debug\AXC_EOA_WMSIntegration.pdb
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x86\Debug\AXC_Licence.dll
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x86\Debug\Newtonsoft.Json.dll
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x86\Debug\SAPBusinessOneSDK.dll
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x86\Debug\System.Net.Http.Formatting.dll
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x86\Debug\Newtonsoft.Json.xml
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x86\Debug\System.Net.Http.Formatting.xml
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\Debug\x64\icon.png
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\Debug\x64\AXC_EOA_WMSIntegration.exe.config
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\Debug\x64\AXC_EOA_WMSIntegration.exe
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\Debug\x64\AXC_EOA_WMSIntegration.pdb
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\Debug\x64\AXC_Licence.dll
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\Debug\x64\Newtonsoft.Json.dll
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\Debug\x64\SAPBusinessOneSDK.dll
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\Debug\x64\System.Net.Http.Formatting.dll
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\Debug\x64\Newtonsoft.Json.xml
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\Debug\x64\System.Net.Http.Formatting.xml
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\Debug\x86\icon.png
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\Debug\x86\AXC_EOA_WMSIntegration.exe.config
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\Debug\x86\AXC_EOA_WMSIntegration.exe
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\Debug\x86\AXC_EOA_WMSIntegration.pdb
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\Debug\x86\AXC_Licence.dll
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\Debug\x86\Newtonsoft.Json.dll
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\Debug\x86\SAPBusinessOneSDK.dll
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\Debug\x86\System.Net.Http.Formatting.dll
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\Debug\x86\Newtonsoft.Json.xml
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\Debug\x86\System.Net.Http.Formatting.xml
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x86\icon.png
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x86\AXC_EOA_WMSIntegration.exe.config
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x86\AXC_EOA_WMSIntegration.exe
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x86\AXC_EOA_WMSIntegration.pdb
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x86\AXC_Licence.dll
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x86\Newtonsoft.Json.dll
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x86\SAPBusinessOneSDK.dll
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x86\System.Net.Http.Formatting.dll
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x86\Newtonsoft.Json.xml
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x86\System.Net.Http.Formatting.xml
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.Properties.Resources.resources
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.Src.Resource.Queries.resources
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.csproj.GenerateResource.cache
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.csproj.CoreCompileInputs.cache
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.csproj.CopyComplete
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.exe
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\obj\x64\Debug\AXC_EOA_WMSIntegration.pdb
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x64\icon.png
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x64\AXC_EOA_WMSIntegration.exe.config
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x64\AXC_EOA_WMSIntegration.exe
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x64\AXC_EOA_WMSIntegration.pdb
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x64\AXC_Licence.dll
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x64\Newtonsoft.Json.dll
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x64\SAPBusinessOneSDK.dll
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x64\System.Net.Http.Formatting.dll
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x64\Newtonsoft.Json.xml
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x64\System.Net.Http.Formatting.xml

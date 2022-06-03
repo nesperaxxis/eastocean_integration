@@ -38,6 +38,7 @@ namespace AXC_EOA_WMSIntegration.Src.APIAccess
         public string ShipToCode = "";
         public string DocumentStatus = "";
         public string Canceled = "";
+        public string Status = "";
         public string DirectDelivery = "";
 
         public List<SOLines> Lines = new List<SOLines>();
@@ -62,6 +63,7 @@ namespace AXC_EOA_WMSIntegration.Src.APIAccess
             ShipToCode = rs.Fields.Item("ShipToCode").Value.ToString();
             DocumentStatus = rs.Fields.Item("DocStatus").Value.ToString();
             Canceled = rs.Fields.Item("CANCELED").Value.ToString();
+            Status = rs.Fields.Item("DocStatus").Value.ToString();
             DirectDelivery = rs.Fields.Item("DirectDelivery").Value.ToString();
 
             Lines = SOLines.GetItems(_docEntry);

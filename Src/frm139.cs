@@ -119,8 +119,8 @@ namespace AXC_EOA_WMSIntegration
                     throw new Exception("Synch can only be done on 'OK' mode");
                 if (_oForm.DataSources.DBDataSources.Item("ORDR").GetValue("DocEntry", 0).ToString().Trim() == "")
                     throw new Exception("Invalid Sales Order doc entry.");
-                if (_oForm.DataSources.DBDataSources.Item("ORDR").GetValue("DocStatus", 0).ToString().Trim() == "C")
-                    throw new Exception("Sales Order status is closed/canceled.");
+                //if (_oForm.DataSources.DBDataSources.Item("ORDR").GetValue("DocStatus", 0).ToString().Trim() == "C")
+                //    throw new Exception("Sales Order status is closed/canceled.");
                 if (SBOAddon.SBO_Application.MessageBox("Synch this sales order?", 2, "Ok", "Cancel") != 1)
                     throw new Exception("Synch operation canceled by user");
 

@@ -35,7 +35,8 @@ namespace AXC_EOA_WMSIntegration.Src.APIAccess
         public string PayTerm = "";
         public string Currency = "";
         public double ExcRate = 0;
-
+        public string Canceled = "";
+        public string Status = "";
 
 
         public List<POLines> Lines = new List<POLines>();
@@ -56,7 +57,8 @@ namespace AXC_EOA_WMSIntegration.Src.APIAccess
             Remark = rs.Fields.Item("Comments").Value.ToString() + (rs.Fields.Item("CANCELED").Value.ToString() == "Y" ? " - CANCELED" : "");
             Currency = rs.Fields.Item("DocCur").Value.ToString();
             ExcRate = (Double)rs.Fields.Item("DocRate").Value;
-
+            Canceled = rs.Fields.Item("CANCELED").Value.ToString();
+            Status = rs.Fields.Item("DocStatus").Value.ToString();
             Lines = POLines.GetItems(_docEntry);
         }
 

@@ -1,0 +1,14 @@
+E:\SAP Projects\SMG\Customized Programs\SBO91\TWM_SMG_Integration\bin\x86\Release\TWM_SMG_Integration.exe.config
+E:\SAP Projects\SMG\Customized Programs\SBO91\TWM_SMG_Integration\bin\x86\Release\TWM_SMG_Integration.exe
+E:\SAP Projects\SMG\Customized Programs\SBO91\TWM_SMG_Integration\bin\x86\Release\TWM_SMG_Integration.pdb
+E:\SAP Projects\SMG\Customized Programs\SBO91\TWM_SMG_Integration\bin\x86\Release\Newtonsoft.Json.dll
+E:\SAP Projects\SMG\Customized Programs\SBO91\TWM_SMG_Integration\bin\x86\Release\System.Net.Http.Formatting.dll
+E:\SAP Projects\SMG\Customized Programs\SBO91\TWM_SMG_Integration\bin\x86\Release\Newtonsoft.Json.xml
+E:\SAP Projects\SMG\Customized Programs\SBO91\TWM_SMG_Integration\bin\x86\Release\System.Net.Http.Formatting.xml
+E:\SAP Projects\SMG\Customized Programs\SBO91\TWM_SMG_Integration\obj\x86\Release\TWM_SMG_Integration.csprojResolveAssemblyReference.cache
+E:\SAP Projects\SMG\Customized Programs\SBO91\TWM_SMG_Integration\obj\x86\Release\TWM_SMG_Integration.Properties.Resources.resources
+E:\SAP Projects\SMG\Customized Programs\SBO91\TWM_SMG_Integration\obj\x86\Release\TWM_SMG_Integration.Src.Resource.Queries.resources
+E:\SAP Projects\SMG\Customized Programs\SBO91\TWM_SMG_Integration\obj\x86\Release\TWM_SMG_Integration.csproj.GenerateResource.Cache
+E:\SAP Projects\SMG\Customized Programs\SBO91\TWM_SMG_Integration\obj\x86\Release\TWM_SMG_Integration.exe
+E:\SAP Projects\SMG\Customized Programs\SBO91\TWM_SMG_Integration\obj\x86\Release\TWM_SMG_Integration.pdb
+E:\SAP Projects\SMG\Customized Programs\SBO91\TWM_SMG_Integration\bin\x86\Release\logo.jpg

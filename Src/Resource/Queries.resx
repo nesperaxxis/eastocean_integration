@@ -505,6 +505,7 @@ WHERE DocEntry = 0{0}</value>
 	, T0.CreateDate, T0.CreateTS
 	, T0.UpdateDate, T0.UpdateTS
 	, T0.U_PRANK
+	, T0.PrchseItem, T0.SellItem, T0.InvntItem 
 FROM OITM T0 JOIN OITB T1 ON T0.ItmsGrpCod = T1.ItmsGrpCod
 	JOIN OADP T4 ON 1 = 1
 	LEFT JOIN OITW T2 ON T0.ItemCode = T2.ItemCode AND T2.WhsCode = T0.DfltWH
@@ -521,7 +522,7 @@ Where A."Code" = '{0}'</value>
   </data>
   <data name="GET_RECORD_OPOR" xml:space="preserve">
     <value>SELECT T0.DocEntry, T0.DocNum, T0.DocDate, T0.DocDueDate, T0.CardCode, T0.CardName, T0.NumAtCard, T0.ShipToCode, T0.Comments, T0.SlpCode, T1.SlpName
-	, DocCur, DocRate, T0."CANCELED"
+	, DocCur, DocRate, T0."CANCELED", T0."DocStatus"
 FROM OPOR T0 LEFT JOIN OSLP T1 ON T0.SlpCode = T1.SlpCode
 WHERE DocEntry = {0}</value>
   </data>
@@ -529,7 +530,7 @@ WHERE DocEntry = {0}</value>
     <value>SELECT * FROM ORDN WHERE "DocEntry" = '{0}'</value>
   </data>
   <data name="GET_RECORD_ORDR" xml:space="preserve">
-    <value>SELECT T0.DocEntry, T0.DocNum, T0.DocDate, T0.DocDueDate, T0.CardCode, T0.CardName, T0.NumAtCard, T0.ShipToCode, T0.Comments, T0.SlpCode, T1.SlpName,T0.DocStatus,T0."CANCELED"
+    <value>SELECT T0.DocEntry, T0.DocNum, T0.DocDate, T0.DocDueDate, T0.CardCode, T0.CardName, T0.NumAtCard, T0.ShipToCode, T0.Comments, T0.SlpCode, T1.SlpName,T0.DocStatus,T0."CANCELED" , T0."DocStatus"
 	, CASE WHEN ISNULL(T0.U_AXC_DDLVR,'-') IN ('','-') THEN 'N' ELSE   T0.U_AXC_DDLVR END DirectDelivery
 FROM ORDR T0 LEFT JOIN OSLP T1 ON T0.SlpCode = T1.SlpCode
 WHERE DocEntry = 0{0}</value>

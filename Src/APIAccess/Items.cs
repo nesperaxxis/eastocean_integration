@@ -57,6 +57,9 @@ namespace AXC_EOA_WMSIntegration.Src.APIAccess
         public string PictureData = "";  //Base64 = "";
         public string CreateTS = "";
         public string UpdateTS = "";
+        public string PrchseItem = "";
+        public string SellItem = "";
+        public string InvntItem = "";
 
 
         public Items(string itemCode) : base()
@@ -105,6 +108,9 @@ namespace AXC_EOA_WMSIntegration.Src.APIAccess
             CreateTS = eCommon.GetTimeStamp(CreateDate, CreateTime).ToString("yyyyMMdd HH:mm:ss");
             UpdateTS = eCommon.GetTimeStamp(UpdateDate, UpdateTime).ToString("yyyyMMdd HH:mm:ss");
 
+            //PrchseItem = rs.Fields.Item("PrchseItem").Value.ToString().Trim();
+            //SellItem = rs.Fields.Item("SellItem").Value.ToString().Trim();
+            //InvntItem = rs.Fields.Item("InvntItem").Value.ToString().Trim();
         }
 
         internal override string sapKeyVal => this._itemCode.ToString();

@@ -119,8 +119,8 @@ namespace AXC_EOA_WMSIntegration
                     throw new Exception("Synch can only be done on 'OK' mode");
                 if (_oForm.DataSources.DBDataSources.Item("OPOR").GetValue("DocEntry", 0).ToString().Trim() == "")
                     throw new Exception("Invalid Purchase Order doc entry.");
-                if (_oForm.DataSources.DBDataSources.Item("OPOR").GetValue("CANCELED", 0).ToString().Trim() != "N")
-                    throw new Exception("Document is canceled/cancellation document.");
+                //if (_oForm.DataSources.DBDataSources.Item("OPOR").GetValue("CANCELED", 0).ToString().Trim() != "N")
+                //    throw new Exception("Document is canceled/cancellation document.");
                 if (SBOAddon.SBO_Application.MessageBox("Synch this Purchase Order to WMS?", 2, "Ok", "Cancel") != 1)
                     throw new Exception("Synch operation canceled by user");
 

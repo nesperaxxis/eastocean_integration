@@ -55,7 +55,7 @@ namespace AXC_EOA_WMSIntegration.Src.APIAccess
         public static Dictionary<string, Type> SynchObjectInfoCollection = new Dictionary<string, Type>
         {
             {APCNotes._objectType,  typeof(APCNotes) } ,
-            {APReturns._objectType,  typeof(APReturns) } ,
+            {APReturns._objectType,  typeof(APReturns) } ,  
             {ARCNotes._objectType,  typeof(ARCNotes) } ,
             {ARResInvoices._objectType,  typeof(ARResInvoices) } ,
             {ARReturns._objectType,  typeof(ARReturns) } ,

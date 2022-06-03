@@ -526,8 +526,8 @@ namespace AXC_EOA_WMSIntegration.Src.Resource {
         ///	, T0.CreateDate, T0.CreateTS
         ///	, T0.UpdateDate, T0.UpdateTS
         ///	, T0.U_PRANK
-        ///FROM OITM T0 JOIN OITB T1 ON T0.ItmsGrpCod = T1.ItmsGrpCod
-        ///	JOI [rest of string was truncated]&quot;;.
+        ///	, T0.PrchseItem, T0.SellItem, T0.InvntItem 
+        ///FROM OITM T0 JOIN  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string GET_RECORD_OITM {
             get {
@@ -557,7 +557,7 @@ namespace AXC_EOA_WMSIntegration.Src.Resource {
         
         /// <summary>
         ///   Looks up a localized string similar to SELECT T0.DocEntry, T0.DocNum, T0.DocDate, T0.DocDueDate, T0.CardCode, T0.CardName, T0.NumAtCard, T0.ShipToCode, T0.Comments, T0.SlpCode, T1.SlpName
-        ///	, DocCur, DocRate, T0.&quot;CANCELED&quot;
+        ///	, DocCur, DocRate, T0.&quot;CANCELED&quot;, T0.&quot;DocStatus&quot;
         ///FROM OPOR T0 LEFT JOIN OSLP T1 ON T0.SlpCode = T1.SlpCode
         ///WHERE DocEntry = {0}.
         /// </summary>
@@ -577,7 +577,7 @@ namespace AXC_EOA_WMSIntegration.Src.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to SELECT T0.DocEntry, T0.DocNum, T0.DocDate, T0.DocDueDate, T0.CardCode, T0.CardName, T0.NumAtCard, T0.ShipToCode, T0.Comments, T0.SlpCode, T1.SlpName,T0.DocStatus,T0.&quot;CANCELED&quot;
+        ///   Looks up a localized string similar to SELECT T0.DocEntry, T0.DocNum, T0.DocDate, T0.DocDueDate, T0.CardCode, T0.CardName, T0.NumAtCard, T0.ShipToCode, T0.Comments, T0.SlpCode, T1.SlpName,T0.DocStatus,T0.&quot;CANCELED&quot; , T0.&quot;DocStatus&quot;
         ///	, CASE WHEN ISNULL(T0.U_AXC_DDLVR,&apos;-&apos;) IN (&apos;&apos;,&apos;-&apos;) THEN &apos;N&apos; ELSE   T0.U_AXC_DDLVR END DirectDelivery
         ///FROM ORDR T0 LEFT JOIN OSLP T1 ON T0.SlpCode = T1.SlpCode
         ///WHERE DocEntry = 0{0}.

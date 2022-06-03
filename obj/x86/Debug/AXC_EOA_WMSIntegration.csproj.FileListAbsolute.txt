@@ -1,0 +1,35 @@
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x86\Debug\icon.png
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x86\Debug\AXC_EOA_WMSIntegration.exe.config
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x86\Debug\AXC_EOA_WMSIntegration.exe
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x86\Debug\AXC_EOA_WMSIntegration.pdb
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x86\Debug\AXC_Licence.dll
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x86\Debug\Newtonsoft.Json.dll
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x86\Debug\SAPBusinessOneSDK.dll
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x86\Debug\System.Net.Http.Formatting.dll
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x86\Debug\Newtonsoft.Json.xml
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\bin\x86\Debug\System.Net.Http.Formatting.xml
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\obj\x86\Debug\AXC_EOA_WMSIntegration.csprojAssemblyReference.cache
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\obj\x86\Debug\AXC_EOA_WMSIntegration.Properties.Resources.resources
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\obj\x86\Debug\AXC_EOA_WMSIntegration.Src.Resource.Queries.resources
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\obj\x86\Debug\AXC_EOA_WMSIntegration.csproj.GenerateResource.cache
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\obj\x86\Debug\AXC_EOA_WMSIntegration.csproj.CoreCompileInputs.cache
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\obj\x86\Debug\AXC_EOA_WMSIntegration.csproj.CopyComplete
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\obj\x86\Debug\AXC_EOA_WMSIntegration.exe
+\\10.2.0.88\b1backup\_Projects\East Ocean ATC 9.2 PL08\AddOns\SourceCodes\AXC_EOA_WMSIntegration\obj\x86\Debug\AXC_EOA_WMSIntegration.pdb
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\x86\Debug\icon.png
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\x86\Debug\AXC_EOA_WMSIntegration.exe.config
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\x86\Debug\AXC_EOA_WMSIntegration.exe
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\x86\Debug\AXC_EOA_WMSIntegration.pdb
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\x86\Debug\AXC_Licence.dll
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\x86\Debug\Newtonsoft.Json.dll
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\x86\Debug\SAPBusinessOneSDK.dll
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\x86\Debug\System.Net.Http.Formatting.dll
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\x86\Debug\Newtonsoft.Json.xml
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\bin\x86\Debug\System.Net.Http.Formatting.xml
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\obj\x86\Debug\AXC_EOA_WMSIntegration.Properties.Resources.resources
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\obj\x86\Debug\AXC_EOA_WMSIntegration.Src.Resource.Queries.resources
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\obj\x86\Debug\AXC_EOA_WMSIntegration.csproj.GenerateResource.cache
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\obj\x86\Debug\AXC_EOA_WMSIntegration.csproj.CoreCompileInputs.cache
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\obj\x86\Debug\AXC_EOA_WMSIntegration.csproj.CopyComplete
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\obj\x86\Debug\AXC_EOA_WMSIntegration.exe
+D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\obj\x86\Debug\AXC_EOA_WMSIntegration.pdb
