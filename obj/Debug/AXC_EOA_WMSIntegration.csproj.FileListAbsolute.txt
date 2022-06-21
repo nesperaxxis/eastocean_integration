@@ -63,3 +63,21 @@ D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\obj\Debug\AXC_EOA_WMSIntegration.csproj.
 D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\obj\Debug\AXC_EOA_WMSIntegration.csproj.CopyComplete
 D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\obj\Debug\AXC_EOA_WMSIntegration.exe
 D:\Axxis\EOA\EOA\AXC_EOA_WMSIntegration\obj\Debug\AXC_EOA_WMSIntegration.pdb
+D:\Source Code\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x86\icon.png
+D:\Source Code\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x86\AXC_EOA_WMSIntegration.exe.config
+D:\Source Code\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x86\AXC_EOA_WMSIntegration.exe
+D:\Source Code\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x86\AXC_EOA_WMSIntegration.pdb
+D:\Source Code\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x86\AXC_Licence.dll
+D:\Source Code\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x86\Newtonsoft.Json.dll
+D:\Source Code\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x86\SAPBusinessOneSDK.dll
+D:\Source Code\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x86\System.Net.Http.Formatting.dll
+D:\Source Code\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x86\Newtonsoft.Json.xml
+D:\Source Code\EOA\EOA\AXC_EOA_WMSIntegration\bin\Debug\x86\System.Net.Http.Formatting.xml
+D:\Source Code\EOA\EOA\AXC_EOA_WMSIntegration\obj\Debug\AXC_EOA_WMSIntegration.csproj.AssemblyReference.cache
+D:\Source Code\EOA\EOA\AXC_EOA_WMSIntegration\obj\Debug\AXC_EOA_WMSIntegration.Properties.Resources.resources
+D:\Source Code\EOA\EOA\AXC_EOA_WMSIntegration\obj\Debug\AXC_EOA_WMSIntegration.Src.Resource.Queries.resources
+D:\Source Code\EOA\EOA\AXC_EOA_WMSIntegration\obj\Debug\AXC_EOA_WMSIntegration.csproj.GenerateResource.cache
+D:\Source Code\EOA\EOA\AXC_EOA_WMSIntegration\obj\Debug\AXC_EOA_WMSIntegration.csproj.CoreCompileInputs.cache
+D:\Source Code\EOA\EOA\AXC_EOA_WMSIntegration\obj\Debug\AXC_EOA_WMSIntegration.csproj.CopyComplete
+D:\Source Code\EOA\EOA\AXC_EOA_WMSIntegration\obj\Debug\AXC_EOA_WMSIntegration.exe
+D:\Source Code\EOA\EOA\AXC_EOA_WMSIntegration\obj\Debug\AXC_EOA_WMSIntegration.pdb
